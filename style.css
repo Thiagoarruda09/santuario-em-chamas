@@ -26,7 +26,7 @@
         background-size: cover;
         background-attachment: fixed;
         background-position: bottom center;
-    color: white;
+    color: #F5610B;
 text-align: center;}
 
 header > h1{padding-top: 50px;
@@ -42,7 +42,7 @@ font-family: var(--fonte3);
 padding: 5px;
 border-radius: 10px;}
 
-a{color: white;
+a{color: #F5610B;
     text-decoration: none;
     font-weight: bolder;}
 
@@ -56,7 +56,8 @@ a:hover{text-decoration: underline;}
         font-size: 1.5vw;}    
 
 .normal{background-color: white;
-color: black; display: flex;}
+color: black; display: flex;
+height: auto;}
 
 img{ padding-left: 300px;
 padding-bottom: 0px;}
@@ -83,6 +84,6 @@ background-position: center center;}
 footer{background-image: url(imagens/6898537-fogo-chamas-em-preto-fundo-gratis-foto.jpg);
     background-size: cover;
     background-position: center;
-color: white;
+color: #F5610B;
 text-align: center;
 padding: 10px;}
