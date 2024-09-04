@@ -53,7 +53,7 @@ a:hover{text-decoration: underline;}
         line-height: 2em;
         padding-left: 30px;
 
-        font-size: 1.5vw;}    
+        font-size: 2.5vw;}    
 
 .normal{background-color: white;
 color: black; display: flex;
@@ -87,3 +87,17 @@ footer{background-image: url(imagens/6898537-fogo-chamas-em-preto-fundo-gratis-f
 color: #F5610B;
 text-align: center;
 padding: 10px;}
+
+#fundo1{background-image: url(imagens/WhatsApp\ Image\ 2024-09-04\ at\ 14.57.40.jpeg);
+background-repeat: no-repeat;
+background-position: right;
+background-attachment: fixed;}
+
+#fundo2{background-image: url(imagens/WhatsApp\ Image\ 2024-09-04\ at\ 15.10.03.jpeg);
+    background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;}
+
+#fundo3{background-image: url(imagens/WhatsApp\ Image\ 2024-09-04\ at\ 15.14.09.jpeg); background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;}
