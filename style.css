@@ -4,6 +4,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+@font-face {
+    font-family:'fogo' ;
+    src: url(fontes/BrazierFlame.ttf);
+}
+
 :root{
     --fonte1: verdana, Geneva, tahoma, sans-serif;
     --fonte2: "Passion One", system-ui; 
@@ -22,10 +27,10 @@
 text-align: center;}
 
 header > h1{padding-top: 50px;
-font-variant: small-caps;
+
 font-size: 7vw;
 padding-top: 50px;
-font-family: var(--fonte2);}
+font-family:'fogo'}
 
 header > p{padding-bottom: 50px;}
 
@@ -37,7 +42,7 @@ border-radius: 10px;}
 a{color: white;
     text-decoration: none;
     font-weight: bolder;}
-    
+
 a:hover{text-decoration: underline;}
 
     section{padding-bottom: 10vh;
