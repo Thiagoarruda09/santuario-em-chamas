@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte1: verdana, Geneva, tahoma, sans-serif;
+    --fonte2: "Passion One", system-ui; 
+    --fonte3: "Sriracha", system-ui;
+}
+
+
+*{margin: 0px;
+    padding: 0px;}
+
+    html, body{background-color: darkgrey; min-height: 100vh;
+    font-family: var(--fonte1);}
+
+    header{background-color: black;
+    color: white;
+text-align: center;}
+
+header > h1{padding-top: 50px;
+font-variant: small-caps;
+font-size: 7vw;
+padding-top: 50px;
+font-family: var(--fonte2);}
+
+header > p{padding-bottom: 50px;}
+
+section > p{padding-bottom: 2em;
+font-family: var(--fonte3);
+padding: 5px;
+border-radius: 10px;}
+
+a{color: white;
+    text-decoration: none;
+    font-weight: bolder;}
+    
+a:hover{text-decoration: underline;}
+
+    section{padding-bottom: 10vh;
+        padding-top: 10vh;
+        line-height: 2em;
+        padding-left: 30px;
+
+        font-size: 1.5vw;}    
+
+.normal{background-color: white;
+color: black;}
+
+.imagem{background-color: rgba(0, 0, 0, 0.667);
+color: white;
+background-attachment: fixed;
+box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.696);}
+
+.imagem > p{background-color: rgba(0, 0, 0, 0.279);
+display: inline-block; }
+
+#img1{background-image: url(imagens/icarai.jpeg);
+background-size: cover;}
+
+#img2{background-image: url(imagens/WhatsApp\ Image\ 2024-08-12\ at\ 14.38.57.jpeg);
+background-size: cover;
+background-position: center center;}
+
+#img3{background-image: url(imagens/olhos\ cansados.jpg);
+background-size: cover;
+background-position: center center;}
+
+footer{background-color: black;
+color: white;
+text-align: center;
+padding: 10px;}
