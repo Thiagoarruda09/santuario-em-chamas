@@ -27,11 +27,13 @@
         background-attachment: fixed;
         background-position: bottom center;
     color: #F5610B;
-text-align: center;}
+text-align: center;
+position: fixed;
+width: 1330px;}
 
 header > h1{padding-top: 50px;
 
-font-size: 7vw;
+font-size: 3vw;
 padding-top: 50px;
 font-family:'fogo'}
 
